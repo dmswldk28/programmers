@@ -1,7 +1,6 @@
 # Lv1
 
-[메인으로 돌아가기](https://github.com/dmswldk28/programmers)
-[카카오](https://github.com/dmswldk28/programmers/kakao)
+[메인으로 돌아가기](https://github.com/dmswldk28/programmers/kakao)
 
 다시 풀어볼 문제에 체크( :heavy_check_mark: )
 
