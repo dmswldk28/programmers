@@ -41,6 +41,12 @@ public class kakao_2019_tuple {
 //		for (Integer n : list) {
 //			answer[idx++] = n;
 //		}
+//
+// 처음 시도했던 것 : map으로 배열 크기, 배열 저장해놓고
+//		하나씩 set에 add 한 다음에 출력하려고 하니
+//		set에는 index 개념이 없어서 순서가 보장되지 않음
+// 애초에 첫 배열을 *배열 크기순으로 정렬*하고 set에 add하면 되는 거였음
+// if(set.add(s2)) <-- 이걸로 새로 add 됐는지 확인 가능
 		
 		Set<String> set = new HashSet<>();
         String[] arr = s.replaceAll("[{]", " ").replaceAll("[}]", " ").trim().split(" , ");
